@@ -9,6 +9,26 @@ html, body{
     font-family: poppins;
 }
 
+.back{
+    position: absolute;
+    background: #0e0e0e;
+    top: 0.75rem;
+    left: 0.75rem;
+    border-radius: 50%;
+
+    height: 30px;
+    aspect-ratio: 1/1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.back i{
+    color: white;
+}
+
 .line-one{
     position: fixed;
     width: 15px;
